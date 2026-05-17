@@ -1,0 +1,60 @@
+name: vehicle_maintance
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.5.6
+  crypto: ^3.0.3
+  uuid: ^4.5.0
+  intl: ^0.19.0
+  file_picker: ^8.0.0
+  mime: ^2.0.0
+  dotted_border: ^2.0.0
+  google_mlkit_text_recognition: ^0.11.0
+  google_mlkit_commons: ^0.6.0
+  shared_preferences: ^2.2.2
+  syncfusion_flutter_pdf: ^24.1.41
+  path_provider: ^2.1.2
+  image_picker: ^1.0.4
+  path: ^1.9.0
+  url_launcher: ^6.2.6
+  google_maps_flutter: ^2.6.0
+  geolocator: ^10.1.0
+  geocoding: ^2.2.0
+  flutter_local_notifications: ^17.0.0
+  http: ^1.2.0
+  
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+
+  android: true
+
+  ios: true
+
+  image_path: "assets/app_icon.png"
+
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/splash_icon.png
+    - assets/onboard/
